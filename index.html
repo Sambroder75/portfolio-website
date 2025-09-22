@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurelio Suhartono — Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio of Aurelio Suhartono — Cybersecurity student. Projects: IDS/IPS, Secure Web App hosting, InsecureBankv2 pentest." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <h1 class="name">Aurelio Suhartono</h1>
+        <p class="subtitle">Cybersecurity Student — Binus University</p>
+      </div>
+      <nav class="top-links">
+        <a href="https://github.com/Sambroder75" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:aurelio.suhartono@binus.ac.id">Email</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a Cybersecurity student at Binus University with a passion for network security,
+        penetration testing, and secure system deployment. I build hands-on projects in IDS/IPS,
+        secure hosting with Docker, and mobile app penetration testing.
+      </p>
+    </section>
+
+    <section id="objective" class="card">
+      <h2>Objective</h2>
+      <p>
+        Seeking internship experience to apply skills in threat detection, system hardening,
+        and incident response while continuing to learn and contribute to real-world security teams.
+      </p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project">
+          <h3>🔒 Snort IDS/IPS Project</h3>
+          <p>Configured Snort on Ubuntu to detect and prevent attacks such as DoS, DNS spoofing, and Christmas tree scans.</p>
+          <p><a href="https://github.com/yourusername/ids-ips-snort" target="_blank" rel="noopener">View repo →</a></p>
+        </article>
+
+        <article class="project">
+          <h3>🌐 Secure Web Application Hosting</h3>
+          <p>Deployed a Flask app with Docker, MySQL, and a reverse proxy to provide secure IP-based access and persistence.</p>
+          <p><a href="https://github.com/yourusername/computer-borrowing-request" target="_blank" rel="noopener">View repo →</a></p>
+        </article>
+
+        <article class="project">
+          <h3>📱 InsecureBankv2 Penetration Test</h3>
+          <p>Analyzed the InsecureBankv2 APK and backend; identified and documented vulnerabilities (hardcoded credentials, insecure storage, weak crypto).</p>
+          <p><a href="https://github.com/yourusername/insecurebankv2-analysis" target="_blank" rel="noopener">View repo →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Programming: C/C++, Python, HTML/CSS</li>
+        <li>Security Tools: Snort, Suricata, Wireshark, Burp Suite</li>
+        <li>Systems & Dev: Linux (Ubuntu), Docker, GitHub, VS Code</li>
+        <li>Languages: Bahasa Indonesia (native), English (fluent)</li>
+      </ul>
+    </section>
+
+    <section id="certs" class="card">
+      <h2>Certifications & Training</h2>
+      <ul class="certs-list">
+        <li>TryHackMe: Web Fundamentals, Jr Penetration Tester (badges)</li>
+        <li>Cisco Cybersecurity Essentials (in progress)</li>
+        <li>CompTIA Security+ (planned)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:aurelio.suhartono@binus.ac.id">aurelio.suhartono@binus.ac.id</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Aurelio Suhartono — Cybersecurity Portfolio</p>
+    </div>
+  </footer>
+
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
