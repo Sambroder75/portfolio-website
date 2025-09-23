@@ -110,3 +110,7 @@ h2{
   .top-links a{margin-left:0.5rem;font-size:0.9rem}
   .container{padding:1rem 0}
 }
+
+html {
+  scroll-behavior: smooth;
+}
